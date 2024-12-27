@@ -9,7 +9,7 @@ const Destinations = () => {
     <section
       id="destinations"
       style={{
-        padding: "100px 50px",
+        padding: "120px 50px",
         borderTop: "5px solid #f4a261",
         backgroundColor: "#fdfdfd",
         fontFamily: "Arial, sans-serif",

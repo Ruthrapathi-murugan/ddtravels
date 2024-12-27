@@ -6,7 +6,7 @@ const Contact = () => {
     <section
       id="contact"
       style={{
-        padding: "20px",
+        padding: "120px",
         borderTop: "5px solid #ccc",
         display: "flex",
         justifyContent: "space-between",
@@ -15,7 +15,7 @@ const Contact = () => {
       }}
     >
       {/* Contact Form */}
-      <div style={{ flex: 1, paddingRight: "20px",  alignItems:"center"}}>
+      <div style={{ flex: 1, paddingRight: "50px",  alignItems:"center"}}>
         <h1>Contact Us</h1>
         <br></br>
         <p>
@@ -82,7 +82,7 @@ const Contact = () => {
       </div>
 
       {/* Contact Details */}
-      <div style={{ flex: 1, paddingLeft: "100px", textAlign: "left" }}>
+      <div style={{ flex: 1, paddingLeft: "120px", textAlign: "left" }}>
         
         <h2>Contact Details</h2>
         <br></br>
@@ -93,7 +93,7 @@ const Contact = () => {
           <strong>Phone:</strong> +91 95009-96626
         </p>
         <p>
-          <strong>Address:</strong> Coimbatore
+          <strong>Address:</strong> coimbatore
         </p>
       </div>
     </section>

@@ -4,7 +4,8 @@ import "../App.css"; // Import your global styles
 const Packages = () => {
   return (
     
-    <section id="packages" className="packages-section">
+    <section id="packages" className="packages-section" style={{
+      padding: "120px 50px"}}>
       <div className="packages-header">
         <h1>Travel Packages</h1>
         <p>
