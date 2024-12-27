@@ -1,4 +1,8 @@
 import React from "react";
+import ootyImage from "../assets/ooty.jpeg";// Replace with the actual image path
+import Athirapally from "../assets/Athirapally.jpeg";
+import maldives from "../assets/maldives.jpeg";
+import kodaikanal from "../assets/kodaikanal.jpeg";
 
 const Destinations = () => {
   return (
@@ -38,7 +42,7 @@ const Destinations = () => {
           }}
         >
           <img
-            src="https://source.unsplash.com/600x400/?mountains,ooty"
+            src={ootyImage}
             alt="Ooty"
             style={{ width: "100%", height: "200px", objectFit: "cover" }}
           />
@@ -59,9 +63,9 @@ const Destinations = () => {
             overflow: "hidden",
           }}
         >
-          <img
-            src="https://source.unsplash.com/600x400/?waterfall,india"
-            alt="Coimbatore Surroundings"
+         <img
+            src={Athirapally}
+            alt="Ooty"
             style={{ width: "100%", height: "200px", objectFit: "cover" }}
           />
           <div style={{ padding: "20px" }}>
@@ -83,8 +87,8 @@ const Destinations = () => {
           }}
         >
           <img
-            src="https://source.unsplash.com/600x400/?beach,maldives"
-            alt="Maldives"
+            src={maldives}
+            alt="maldeives"
             style={{ width: "100%", height: "200px", objectFit: "cover" }}
           />
           <div style={{ padding: "20px" }}>
@@ -104,13 +108,13 @@ const Destinations = () => {
             overflow: "hidden",
           }}
         >
-          <img
-            src="https://source.unsplash.com/600x400/?alps,mountains"
-            alt="Alps"
+            <img
+            src={kodaikanal}
+            alt="kodaikanal"
             style={{ width: "100%", height: "200px", objectFit: "cover" }}
           />
           <div style={{ padding: "20px" }}>
-            <h2 style={{ color: "#e76f51" }}>Alps</h2>
+            <h2 style={{ color: "#e76f51" }}>Kodaikanal</h2>
             <p style={{ color: "#6d6875" }}>
               Discover the majestic peaks, charming villages, and thrilling adventures
               that await in the Alps.
