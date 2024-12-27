@@ -3,7 +3,7 @@ import "../App.css"; // Import your global styles
 
 const Packages = () => {
   return (
-    <div>
+    
     <section id="packages" className="packages-section">
       <div className="packages-header">
         <h1>Travel Packages</h1>
@@ -28,7 +28,7 @@ const Packages = () => {
         </div>
       </div>
     </section>
-    </div>
+  
   );
 };
 

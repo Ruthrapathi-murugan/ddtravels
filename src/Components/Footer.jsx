@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="footer-logo">
               <a href="/">
                 <img
-                  src="/images/logo-icon.png"
+                  src="/images/download.jpg"
                   alt="DD Holidays and Travels"
                   className="footer-logo-image"
                 />
